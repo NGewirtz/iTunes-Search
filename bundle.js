@@ -9662,7 +9662,7 @@ var Search = function (_React$Component) {
         _react2.default.createElement(
           'h1',
           null,
-          'Search for Albums by Artist'
+          'iTunes Search'
         ),
         _react2.default.createElement(_SearchButton2.default, { handleSearch: this.handleSearch, placeholder: 'Artist' }),
         _react2.default.createElement(_ResultsContainer2.default, { results: this.state.results })

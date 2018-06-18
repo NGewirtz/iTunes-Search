@@ -4,7 +4,7 @@ import ResultsContainer from './ResultsContainer';
 import { getSearchResults } from '../util/api';
 
 class Search extends React.Component {
-  
+
   constructor() {
     super();
     this.state = {
@@ -22,7 +22,7 @@ class Search extends React.Component {
   render() {
     return (
       <main>
-        <h1>Search for Albums by Artist</h1>
+        <h1>iTunes Search</h1>
         <SearchButton handleSearch={this.handleSearch} placeholder="Artist"/>
         <ResultsContainer results={this.state.results}/>
       </main>
