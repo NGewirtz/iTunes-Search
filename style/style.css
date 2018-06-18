@@ -1,0 +1,98 @@
+html, body, footer, nav, div, section, main, ul, li, a {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: inherit;
+  font: inherit;
+  text-decoration: inherit;
+  text-align: inherit;
+  color: inherit;
+  background: transparent;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+}
+/* CSS Reset */
+
+body {
+  background-color: #565050;
+}
+
+#main {
+  overflow: hidden;
+  padding: 20px;
+}
+
+h1, h2 {
+  font-family: sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+p, button {
+  font-family: monospace;
+  color: #565050;
+}
+
+.search-button, .result-container {
+  padding: 10px 0;
+}
+
+.result-container ul {
+  display: flex;
+  overflow: auto;
+  background-color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.result-container ul > li {
+  padding: 20px 5px;
+}
+
+.result-container img {
+  height: 100px;
+  width: 100px;
+}
+
+img:hover {
+  border: 2px solid #565050;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+input, button {
+  padding: 5px;
+  background-color: #ffffff;
+  border-width: 2px;
+  border-style: inset;
+  vertical-align: bottom;
+}
+
+input {
+  border-radius: 5px 0 0 5px;
+}
+
+button {
+  border-radius: 0 5px 5px 0;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+input:focus {
+  border-color: #fb7c7c;
+}
+
+button:hover {
+  background-color:#565050;
+  color: #ffffff;
+}
