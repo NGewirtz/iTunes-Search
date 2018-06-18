@@ -22293,7 +22293,7 @@ function SearchButton(_ref) {
     _react2.default.createElement("input", { id: "search-term", placeholder: placeholder }),
     _react2.default.createElement(
       "button",
-      { id: "search", onClick: handleSearch },
+      { onClick: handleSearch },
       "Search"
     )
   );

@@ -4,7 +4,7 @@ function SearchButton({handleSearch, placeholder}) {
   return (
     <section className="search-button">
       <input id="search-term" placeholder={placeholder}></input>
-      <button id="search" onClick={handleSearch}>Search</button>
+      <button onClick={handleSearch}>Search</button>
     </section>
   );
 }
