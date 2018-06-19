@@ -3,7 +3,6 @@ import ResultsItem from './ResultsItem';
 
 function ResultsContainer({results}) {
   const resultsItems = Object.values(results).map(result => {
-    console.log(result.name);
     return <ResultsItem result={result} key={result.name} />;
   });
 

@@ -22244,7 +22244,6 @@ function ResultsContainer(_ref) {
   var results = _ref.results;
 
   var resultsItems = Object.values(results).map(function (result) {
-    console.log(result.name);
     return _react2.default.createElement(_ResultsItem2.default, { result: result, key: result.name });
   });
 
